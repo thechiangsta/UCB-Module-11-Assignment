@@ -28,8 +28,34 @@ This repo contains data analysis on a Kaggle dataset about used car pricing. The
     *   `state`: State the car is located (e.g. California, Nevada).
 
 ## Findings
-
+- **Age is the most important factor**: The age of the car has by far the biggest impact on its price.
+- **Odometer reading is the second most important**: The distance a car has been driven is also very influential.
+- **Drivetrain type matters**: The type of drive (e.g. 2WD, 4WD) is a significant factor.
+- **Manufacturer plays a role**: The car's manufacturer has notable importance.
+- **Engine and Vehicle Characteristics are Important**: Features like the number of cylinders, model, fuel type, and condition also contribute substantially to price.
+- **Other Factors**: Transmission type, condition, title status, and paint color have moderate importance.
 
 # Actionable Items
+### Pricing Strategy:
 
-## Summary
+- **Refine Age/Mileage Models**: Non-linear depreciation, mileage bands, regional adjustments.
+- **Drive Type Pricing**: Premium/discount based on local demand (2WD vs AWD/4WD).
+- **Manufacturer Adjustments**: Value differences based on brand reputation.
+- **Dynamic Pricing**: Real-time adjustments using market data.
+
+### Inventory Acquisition:
+
+- **Prioritize Lower Mileage**: If cost-effective, target vehicles with lower odometer readings.
+- **Stock Popular Brands**: Focus on manufacturers with strong resale value.
+- **Strategic Condition Sourcing**: Balance high-end (excellent) with reconditionable vehicles.
+
+### Marketing & Sales:
+
+- **Highlight Age/Mileage**: 
+Emphasize low mileage, newer age vehicles.
+- **Targeted Ads**: Segment by vehicle characteristics (AWD SUVs, etc.).
+
+### Ongoing Data & Analytics:
+- **Model Refinement**: Regularly update pricing with new data.
+- **Competitor Analysis**: Track similar vehicle prices.
+- **Demand Forecasting**: Predict demand based on seasonality/economy.
